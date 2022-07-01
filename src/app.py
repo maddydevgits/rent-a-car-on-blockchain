@@ -88,7 +88,7 @@ def bookingsPage():
         dummy=[]
         dummy.append(_users[i])
         dummy.append(_pickups[i])
-        dummy.append(_dropoffs[1])
+        dummy.append(_dropoffs[i])
         dummy.append(_pickupdates[i])
         dummy.append(_dropoffdates[i])
         dummy.append(_pickuptime[i])
